@@ -23,6 +23,7 @@ func main() {
 
 	log.Println("Starting application in port", port)
 
+	// 第1引数がパス、第2引数がハンドラ
 	http.HandleFunc("/", Hello)
 
 	// start a web server
